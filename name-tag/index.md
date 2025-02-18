@@ -39,7 +39,7 @@ Combining it with dithering the input immage, and I think you can get quite the 
 ![picture of image](picture.jpeg)
 
 
-![video of image refresh](update-picture.m4v)
+![video of image refresh](update-picture.webp)
 
 ## Setup
 
