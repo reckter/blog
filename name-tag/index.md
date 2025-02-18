@@ -1,11 +1,11 @@
 # E-Ink Name tags
 
-I occasionlly participate in giving a curse for a [somer camp (german)](hsaka.de).
+I occasionlly participate in giving a curse for a [somer camp (german)](https://hsaka.de).
 While at the camp every participant is required to wear a name tag.
 Usually just a paper in a plastic holder.
 It's been a tradition to personalize the name tag to make it your own, this included writing the name you want to have, painting pictures or printing out new ones with funny in-jokes.
 
-[insert pictures of name tags]
+![pictures of name tags](normal-name-tag.jpeg)
 
 On one of these camps I had the idea of having an E-Ink name tag. That way I coul dupdate it live whenever I want!
 Luck have it that I found the [Badger 2040W](https://shop.pimoroni.com/products/badger-2040-w?variant=40514062188627). A perfect fit!
@@ -36,17 +36,18 @@ By turning the pixel on and off, depending on the gray-tone I want, I can simula
 But it's better than only black and white.
 Combining it with dithering the input immage, and I think you can get quite the images out of the device!
 
-[picture of image]
+![picture of image](picture.jpeg)
 
-[video of image refresh]
+![video of image refresh](update-picture.mov)
 
 ## Setup
 
 At the end I had a small website, that I could update the text in and upload now pictures.
 With a press of a button, the Badger would connect to the local wifi, download the newest image and display it.
 
+![text example](text-tag.jpeg)
 ## Compression
-My first naive approach of downloading an `Boolean[][]`, was quickly fayling, because of the size of the json response (woops).
+My first naive approach of downloading an `Boolean[][]`, was quickly failing, because of the size of the json response (woops).
 Luckily the screen of the Badger itself is exactly 128 pixels high. 
 Which caused the devs of it, to pack the memory representation of the pixel space in y, then x orientation (so scannig down, then left).
 A bit unusaly, which means I had to "flip" some arrays, but packing the pictures on the server and just pushing raw bytes over the wire significantly reduces the bandwith!
@@ -59,4 +60,4 @@ The client just pushes the correct index to the screen while updating. There is 
 ## Future
 
 I don't know.
-I just ordered an [TRMNL](usetrmnl.com). They currently do not have a gray scale mode (which is part of the inspiration for this post, take this as free product feedback!)
+I just ordered an [TRMNL](https://usetrmnl.com). They currently do not have a gray scale mode (which is part of the inspiration for this post, take this as free product feedback!)
