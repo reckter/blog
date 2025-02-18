@@ -38,7 +38,8 @@ Combining it with dithering the input immage, and I think you can get quite the 
 
 ![picture of image](picture.jpeg)
 
-![video of image refresh](update-picture.mov)
+
+![video of image refresh](update-picture.m4v)
 
 ## Setup
 
