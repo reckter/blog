@@ -1,6 +1,6 @@
 # Ray Tracer
 
-A friend of mine recently did (ray Tracing in one weekend)[https://raytracing.github.io/books/RayTracingInOneWeekend.html], and I got inspired to do the same.
+A friend of mine recently did [ray Tracing in one weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), and I got inspired to do the same.
 
 In December of 2019 I did the annual [advent of code](https://adventofcode.com/2019). In that year you have to implement a VM, that can execute "intCode".
 Inspired by that I decided to implement an Assembly language on top of that, and eventually even a "high level" language, that I call "intScript".
