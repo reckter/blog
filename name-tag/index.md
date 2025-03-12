@@ -1,3 +1,5 @@
+<meta name="fediverse:creator" content="@reckter@oc.is">
+
 # E-Ink Name tags
 
 I occasionlly participate in giving a curse for a [somer camp (german)](https://hsaka.de).

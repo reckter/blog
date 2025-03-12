@@ -1,3 +1,4 @@
+<meta name="fediverse:creator" content="@reckter@oc.is">
 # Ray Tracer
 
 A friend of mine recently did [ray Tracing in one weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), and I got inspired to do the same.
